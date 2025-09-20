@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #f0f0f0;
+}
+
+/* Заголовок */
+#page-title {
+    text-align: center;
+    color: #333;
+}
+
+/* Таблица */
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: linear-gradient(to right, #ee92d4, #a6c1ee);
+}
+
+th {
+ background: linear-gradient(to right, #2e0323, #a6c1ee);
+    color: white;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+}
+
+.highlight-row {
+    background-color: #ffeeba;
+}
+
+/* Форма */
+form {
+    width: 60%;
+    margin: 20px auto;
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #c580ba;
+    color: rgb(48, 16, 38);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffd3f4;
+}

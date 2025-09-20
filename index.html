@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3 - Table and Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+<div class="navbar">
+    <a href="../../index.html">Task 1</a>
+    <a href="../index.html">Task 2</a>
+    <a href="index.html">Task 3</a>
+    <a href="../../task4/index.html">Task 4</a>
+</div>
+
+
+
+    <h1 id="page-title">Student Grades</h1>
+
+    <!-- Table -->
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>Dilyara</td>
+            <td>Design</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>Dilnaz</td>
+            <td>Business</td>
+            <td>C+</td>
+        </tr>
+        <tr class="highlight-row">
+            <td>Aruzhan</td>
+            <td>Programming</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td colspan="2">Best Student</td>
+            <td>Dilyara</td>
+        </tr>
+    </table>
+
+    <!-- Form -->
+    <h2>Feedback Form</h2>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="role">Role:</label><br>
+        <select id="role" name="role">
+            <option>Student</option>
+            <option>Teacher</option>
+            <option>Other</option>
+        </select><br><br>
+
+        <label>Do you like this course?</label><br>
+        <input type="radio" name="like" value="yes"> Yes
+        <input type="radio" name="like" value="no"> No<br><br>
+
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="40"></textarea><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
